@@ -1,0 +1,20 @@
+.fc-daygrid-event-dot {
+    display: none;
+  }
+  .fc-event-title {
+    width: 100%;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+  }
+  .fc-event-title:hover{
+    text-overflow:inherit; 
+    overflow:visible; 
+    white-space: pre-line;
+  }
+  .fc-event {
+    border:0px solid rgb(133, 147, 158); 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }

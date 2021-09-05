@@ -76,5 +76,13 @@ module.exports = {
         alias: {
             'vue': 'vue/dist/vue.esm.js'
         }
+    },
+    devServer: {
+        port: 8010,
+        host: '127.0.0.1',
+        watchOptions: {
+            aggregateTimeout: 200,
+            poll: 1000, 
+        },
     }
 };

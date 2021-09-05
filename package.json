@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "init": "webpack --progress --config webpack.dev.config.js",
-    "dev": "webpack-dev-server --content-base ./ --open --inline --hot --compress --history-api-fallback --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --content-base ./ --inline --hot --history-api-fallback --config webpack.dev.config.js",
     "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
   },
   "repository": {
@@ -15,8 +15,18 @@
   "author": "Aresn",
   "license": "MIT",
   "dependencies": {
+    "@fullcalendar/core": "^5.9.0",
+    "@fullcalendar/daygrid": "^5.9.0",
+    "@fullcalendar/icalendar": "^5.9.0",
+    "@fullcalendar/interaction": "^5.9.0",
+    "@fullcalendar/list": "^5.9.0",
+    "@fullcalendar/timegrid": "^5.9.0",
+    "@fullcalendar/vue": "^5.9.0",
+    "axios": "^0.21.1",
+    "fullcalendar": "^5.9.0",
     "iview": "^3.0.0",
     "vue": "^2.5.16",
+    "vue-fullcalendar": "^1.0.9",
     "vue-router": "^2.8.1"
   },
   "devDependencies": {
